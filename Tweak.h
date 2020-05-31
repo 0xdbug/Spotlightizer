@@ -21,16 +21,16 @@
 @property BOOL hidden;
 
 @end
-@interface UINavigationTransitionView 
+/*@interface UINavigationTransitionView 
 
 @property (nonatomic, weak) UIColor *backgroundColor;
 
-@end
-@interface SPUISecureWindow
+@end*/
+/*@interface SPUISecureWindow
 
 @property (nonatomic, weak) UIColor *backgroundColor;
 
-@end
+@end*/
 
 BOOL enabled = true;
 BOOL killBackgroundBlur = true;

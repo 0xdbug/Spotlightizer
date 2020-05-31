@@ -8,7 +8,7 @@ Developed by [**1di4r**](https://www.twitter.com/1di4r)!
 
 <hr>
 
-<b>Compatible with iOS 13</b>
+<b>Compatible with iOS 11 - iOS 12 - iOS 13</b>
 
 # Depends
 + [**Cephei**](http://cydia.saurik.com/package/ws.hbang.common/)
