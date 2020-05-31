@@ -1,6 +1,4 @@
-export ARCHS = arm64 arm64e
-
-export TARGET = iphone:clang:11.2
+ARCHS = arm64 arm64e
 
 INSTALL_TARGET_PROCESSES = SpringBoard
 
@@ -10,7 +8,6 @@ TWEAK_NAME = spotlightizer
 
 spotlightizer_FILES = Tweak.xm
 spotlightizer_CFLAGS = -fobjc-arc
-spotlightizer_FRAMEWORKS = UIKit
 spotlightizer_EXTRA_FRAMEWORKS += Cephei
 spotlightizer_LIBRARIES = colorpicker
 

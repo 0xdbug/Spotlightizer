@@ -1,5 +1,6 @@
-export ARCHS = arm64 arm64e
-export TARGET = iphone:clang:11.2
+ARCHS = arm64 arm64e
+SYSROOT = $(THEOS)/sdks/iPhoneOS12.1.sdk
+
 
 include $(THEOS)/makefiles/common.mk
 
@@ -7,11 +8,11 @@ BUNDLE_NAME = spotlightizer_pref
 
 spotlightizer_pref_FILES = XXXRootListController.m
 spotlightizer_pref_INSTALL_PATH = /Library/PreferenceBundles
-spotlightizer_pref_FRAMEWORKS = UIKit
 spotlightizer_pref_PRIVATE_FRAMEWORKS = Preferences
-spotlightizer_pref_EXTRA_FRAMEWORKS += CepheiPrefs
-spotlightizer_pref_CFLAGS = -fobjc-arc
+spotlightizer_pref_EXTRA_FRAMEWORKS += CepheiPrefs Cephei
 spotlightizer_pref_LIBRARIES = colorpicker
+spotlightizer_pref_FRAMEWORKS = UIKit
+spotlightizer_pref_CFLAGS = -fobjc-arc
 
 
 include $(THEOS_MAKE_PATH)/bundle.mk

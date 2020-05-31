@@ -3,8 +3,12 @@ Spotlightizer allows you to customize your iOS Spotlight, available for **FREE**
 
 Developed by [**1di4r**](https://www.twitter.com/1di4r)!
 
-# Supported Devices
-All iOS 12 Devices are supported
+# Screenshots
+<img src="https://moreinfo.thebigboss.org/moreinfo/spotlightizer1.jpg" height="300" style="max-width:100%;">                        <img src="https://moreinfo.thebigboss.org/moreinfo/spotlightizer3.jpg" height="300" style="max-width:100%;">
+
+<hr>
+
+<b>Compatible with iOS 13</b>
 
 # Depends
 + [**Cephei**](http://cydia.saurik.com/package/ws.hbang.common/)

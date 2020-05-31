@@ -1,38 +1,39 @@
-#import <substrate.h>
 #import <Cephei/HBPreferences.h>
 #include <libcolorpicker.h>
-#import <UIKit/UIKit.h>
-
-bool enabled = true;
-bool killBackgroundBlur = true;
-
-
-
-
 
 @interface SBIsolationTankWindow
 
-    @property UIColor *backgroundColor;
+@property (nonatomic, weak) UIColor *backgroundColor;
 
 @end
-@interface SearchUIMultiResultTableViewCell : SBIsolationTankWindow
+@interface SBHomeScreenSpotlightViewController
 
-    @property UIColor *backgroundColor;
-
+@property (nonatomic, weak) UIView *viewIfLoaded;
 
 @end
-//@interface UILayoutContainerView : SBSpotlightNavigationController
+@interface SBSpotlightNavigationController
 
-  //  @property UIColor *backgroundColor;
+@property (nonatomic, weak) UIView *view;
 
+@end
+@interface _MTStaticVibrantColorMaterialView
 
-//@end
-/*@interface UIGroupTableViewCellBackground : SBIsolationTankWindow
+@property BOOL hidden;
 
-    @property UIColor *backgroundColor;
+@end
+@interface UINavigationTransitionView 
 
+@property (nonatomic, weak) UIColor *backgroundColor;
 
-@end*/
+@end
+@interface SPUISecureWindow
+
+@property (nonatomic, weak) UIColor *backgroundColor;
+
+@end
+
+BOOL enabled = true;
+BOOL killBackgroundBlur = true;
 
 
 
